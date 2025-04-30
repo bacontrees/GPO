@@ -1,2 +1,2 @@
-bitsadmin /transfer Policies  c:\Policies\Policies.ps1
+bitsadmin /transfer Policies  https://raw.githubusercontent.com/bacontrees/AcademyAAD/refs/heads/main/Policies.ps1 c:\Policies\Policies.ps1
 powershell.exe -ExecutionPolicy bypass -File C:\Policies\Policies.ps1
