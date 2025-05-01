@@ -10,6 +10,7 @@ param(
         try {
             Enable-BitLocker -MountPoint $OSDrive -UsedSpaceOnly -TpmProtector -SkipHardwareTest -ErrorAction Stop
             Enable-BitLocker -MountPoint $OSDrive -UsedSpaceOnly -RecoveryPasswordProtector -SkipHardwareTest
+            Resume-BitLocker -MountPoint $OSDrive -ErrorAction Stop
 
         } catch {
             if ($_.Exception.Message -like "*This key protector cannot be added.*") {
