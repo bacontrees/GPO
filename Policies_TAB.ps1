@@ -16,7 +16,7 @@ Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "BitLocker" -
 Unregister-ScheduledTask -TaskName "BL_Enable-Backup" -Confirm:$false
 
 #Transfer GPO Reg
-Start-BitsTransfer -Source https://raw.githubusercontent.com/bacontrees/GPO/refs/heads/main/GPO/GPO.reg -Destination C:\Policies\GPO.reg
+Start-BitsTransfer -Source https://raw.githubusercontent.com/bacontrees/GPO/refs/heads/main/GPO/TAB_GPO.reg -Destination C:\Policies\TAB_GPO.reg
 reg import C:\Policies\GPO.reg
 
 New-Item -ItemType file -Path C:\Policies -Name "Policies Applied $(Get-Date -Format 'yyyyMMdd_HHmmss').log" -Force
