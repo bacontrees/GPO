@@ -59,4 +59,3 @@
 "GPOSetUpdateRing"=dword:00000005
 "FilesOnDemandEnabled"=dword:00000001
 "WarningMinDiskSpaceLimitInMB"=dword:00001400
-
