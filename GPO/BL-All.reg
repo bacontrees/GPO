@@ -1,0 +1,15 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\FVE]
+"EncryptionMethodWithXtsOs"=dword:00000006
+"EncryptionMethodWithXtsFdv"=dword:00000006
+"EncryptionMethodWithXtsRdv"=dword:00000003
+"OSRecovery"=dword:00000001
+"OSManageDRA"=dword:00000001
+"OSRecoveryPassword"=dword:00000002
+"OSRecoveryKey"=dword:00000002
+"OSHideRecoveryPage"=dword:00000000
+"OSActiveDirectoryBackup"=dword:00000000
+"OSActiveDirectoryInfoToStore"=dword:00000001
+"OSRequireActiveDirectoryBackup"=dword:00000000
+
