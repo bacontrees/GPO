@@ -46,4 +46,3 @@ Windows Registry Editor Version 5.00
 "ScheduledInstallTime"=dword:00000002
 "ScheduledInstallEveryWeek"=dword:00000001
 "AllowMUUpdateService"=dword:00000001
-
