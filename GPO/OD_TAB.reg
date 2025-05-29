@@ -1,0 +1,15 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive]
+"KFMSilentOptIn"="37ba6f10-fdc9-4c06-a949-c912d528d54f"
+"KFMSilentOptInWithNotification"=dword:00000001
+"KFMSilentOptInDesktop"=dword:00000001
+"KFMSilentOptInDocuments"=dword:00000001
+"KFMSilentOptInPictures"=dword:00000001
+"SilentAccountConfig"=dword:00000001
+"KFMOptInWithWizard"="37ba6f10-fdc9-4c06-a949-c912d528d54f"
+"KFMBlockOptOut"=dword:00000001
+"GPOSetUpdateRing"=dword:00000005
+"FilesOnDemandEnabled"=dword:00000001
+"WarningMinDiskSpaceLimitInMB"=dword:00001400
+
