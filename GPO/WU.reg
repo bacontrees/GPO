@@ -7,7 +7,7 @@
 "AllowOptionalContent"=dword:00000002
 "TargetReleaseVersion"=dword:00000001
 "ProductVersion"="Windows 11"
-"TargetReleaseVersionInfo"="24H2"
+"TargetReleaseVersionInfo"="26H2"
 "SetUpdateNotificationLevel"=dword:00000001
 "UpdateNotificationLevel"=dword:00000000
 "SetComplianceDeadlineForQU"=dword:00000001
